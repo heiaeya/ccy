@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(#e6e0db,#cce3de);
+    /* text-shadow: -2px 3px 3px rgb(255, 255, 255); */
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-ian {
+    width: 50%;
+    border-radius: 50%;
+    border: solid 8px #e2abb6;
+}
+
+.pink-bcg {
+    background: #e2abb6;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.header-subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-gift {
+    width: 400px;
+    height: 400px;
+    background-image: url("../img/gift.jpg");
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    border: solid 8px #e2abb6;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gift-sec {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.gift-sec-subtitle {
+    margin-top: 0;
+}
+
+#gift-1:hover {
+    background-image: url('https://i.pinimg.com/736x/67/0c/bc/670cbc50a88120f9bb3c4c56784cc9d1.jpg');
+}
+
+#gift-2:hover {
+    background-image: url('https://i.pinimg.com/550x/af/29/8a/af298a633eb096c1f7eeb10384b6efc3.jpg');
+}
+
+#gift-3:hover {
+    background-image: url('https://s1.zerochan.net/Genshin.Impact.600.4000828.jpg');
+}
+
+#gift-4:hover {
+    background-image: url('https://i.pinimg.com/originals/d4/19/2d/d4192d4fe38496f07ce22a9d6c45bb19.jpg');
+}
+
+#gift-5:hover {
+    background-image: url('https://media.tenor.com/G7Wld9aZlvkAAAAM/childe-tartaglia.gif');
+}
+
+.footer-link {
+    color: inherit;
+}
+
